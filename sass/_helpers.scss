@@ -1,0 +1,81 @@
+/*! =Helpers
+-------------------------------------------------------------- */
+
+// Layout
+//--------------------------------------------//
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.hide {
+    display: none;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+.center-block {
+    display: block;
+    margin: 0 auto;
+}
+
+// Typography
+//--------------------------------------------//
+.f-normal {
+    font-weight: normal;
+}
+
+.f-bold {
+    font-weight: bold;
+}
+
+.f-italic {
+    font-style: italic;
+}
+
+.t-strike {
+    text-decoration: line-through;
+}
+
+.t-overline {
+    text-decoration: overline;
+}
+
+.t-underline {
+    text-decoration: underline;
+}
+
+.t-left {
+    text-align: left;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.t-center {
+    text-align: center;
+}

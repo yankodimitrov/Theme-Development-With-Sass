@@ -1,0 +1,26 @@
+// Theme Information
+//--------------------------------------------//
+$theme_name: "My Theme";
+$theme_uri: "#";
+$theme_description: "My WordPress Theme";
+$theme_version: "1.0";
+$theme_author: "my name";
+$theme_author_uri: "#";
+$theme_license: "GPL";
+$theme_tags: "responsive-layout, post-formats";
+
+// Icons
+//--------------------------------------------//
+// map *.png icon files
+$icons_sprite: sprite-map( "icons/*.png" ); 
+$icons_sprite2x: sprite-map( "icons@2x/*.png" );
+
+// generate the icons sprites
+$sprites_file: sprite-url( $icons_sprite );
+$sprites2x_file: sprties-url( $icons_sprite2x );
+
+$sprites_url: url( "images/" + sprite-path( $icons_sprite ) );
+$sprites2x_url: url( "images/" + sprite-path( $icons_sprite2x ) );
+
+// list with theme icons file names (found in icons and icons@2x folders)
+$theme_icons: ( "checkmark", "star" );
